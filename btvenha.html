@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="cuoikhoa.css">
+    <link rel="stylesheet" href="cuoikhoa.js">
+
+</head>
+
+<body>
+<h1 id="profile">Người Làm Web</h1>
+<p class="profile1">Tên: Đoàn Minh Tuấn</p>
+<p class="profile1">Tuổi: 12</p>
+<p class="profile1">Học Viên Lớp: JSB03</p>
+<p class="profile1">Đây là trang web giúp bạn có thể tính được các chỉ số con người và số kcal</p>
+
+    <title>Chỉ Số Cơ Thể Của Bạn</title>
+    <div id="biggest">
+
+        <div>
+            <div id="kilo">
+                <h3>CÂN NẶNG LÝ TƯỚNG</h3>
+            </div>
+            <p>Số lẻ của chiều cao như 170cm tức ghi 70</p>
+            <label>Chiều cao (cm) </label>
+            <input type="text" id="height" size="20">
+            <p id="result1"></p>
+            <button class="btn" onClick="ly()">Calculate</button>
+        </div>
+        <div id="bmr">
+
+
+
+            <h3>CHỈ SỐ BMR</h3>
+            <div id="advice">
+                <p>Sử dụng công cụ tính chỉ số BMR có thể giúp bạn xác định nhu cầu calo hàng ngày dựa trên chiều cao,
+                    cân nặng, tuổi và mức độ hoạt động của bạn.</p>
+            </div>
+            <div id="human">
+                <div>
+                    <div>
+                        <img src="https://hellobacsi.com/images/maleIcon.svg" style="width: 40px; height: 40px;">
+                        <p data-size="label1" data-type="bold" class="sc-bdnylx ihhieo radio-group-item-heading"
+                            style="--custom-color:black;"></p>
+                    </div>
+
+                    <form>
+                        <input type="radio" id="male" name="gender" value="male">
+                        <label for="male">Male</label><br>
+
+                </div>
+                <div>
+                    <div id="female">
+                        <img src="https://hellobacsi.com/images/femaleIcon.svg" style="width: 40px; height: 40px;">
+                        <p data-size="label1" data-type="bold" class="sc-bdnylx ihhieo radio-group-item-heading"
+                            style="--custom-color:#2D87F3;"></p>
+
+                    </div>
+
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Female</label><br>
+                    </form>
+                </div>
+                <img id="phone" src="https://hellobacsi.com/images/toolsIconBmr.svg">
+            </div>
+            <div id="max">
+            <label>Chiều cao</label>
+                <input type="text" id="H" size="20">
+            </div>
+            <div id="age">
+                <label>Số Tuổi </label>
+                <input type="text" id="A" size="20">
+            </div>
+            <div id="min">
+                <label>Cân nặng </label>
+                <input type="text" id="W" size="20">
+
+            </div>
+            <button id="but" onClick="BMR()">Calculate</button>
+            <p id="result2"></p>
+        </div>
+        <div>
+            <h2>BMI Calculator</h2>
+            <p class="text">Height</p>
+            <input type="text" id="h">
+            <p class="text">Weight</p>
+            <input type="text" id="w">
+            <p id="result"></p>
+            <p id="device"></p>
+            <button class="btn" onClick="BMI()">Calculate</button>
+
+        </div>
+        
+
+    </div>
+    <script src="cuoikhoa.js"></script>
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,31 @@
+button{
+  height: 55px;
+ width: 150px;
+ background-color:  rgb(9, 9, 139);
+ color: white;
+}
+   #minh{
+       display: inline;
+       font-size: xx-large;
+
+      
+   }
+   div{
+    border:10px solid white;
+    height: 550px;
+width:1000px;
+   }
+   p{
+       font-size: larger;
+   }
+   img{
+       width: 100px;
+       text-align: right !important;
+    
+}
+#heo{
+    font-size: larger;
+}
+
+
+   

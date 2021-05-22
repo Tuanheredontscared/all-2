@@ -1,0 +1,55 @@
+button{
+    border-radius: 50px;
+    text-align: center;
+   
+}
+#zero{
+    padding: 20px 45px;
+    background-color: gray;
+    border : 0px
+}
+#button{
+    display:flex;
+    
+    height: 88px;
+    
+}
+
+#tinhtoan{
+    display:flex ;
+    flex-direction: column;
+    
+      
+}
+.number{
+    background-color: gray;
+    padding: 20px 20px;
+    border : 0px;
+    margin: 3px 4px;
+    
+}
+
+.hihi{
+    background-color: orange;
+    padding: 20px 20px;
+    border : 0px;
+    margin: 3px 4px;
+    
+}
+#equal{
+    padding: 20px 20px ;
+    border : 0px;
+    margin: 3px 22px;
+     
+}
+#result{
+    font-size: xx-large;
+    color: white;
+}
+#black{
+    background-color: black;
+    height: 373px;
+    width: 250px;
+    border-radius: 15px;
+}
+    

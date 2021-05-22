@@ -1,0 +1,63 @@
+
+h1{
+    text-align: center;
+    color: white;
+}
+
+
+#can{
+    height: 40px;
+}
+#bmi{
+    height: 40px;
+}
+#max{
+    height: 40px;
+}
+#age{
+    height: 40px;
+}
+#advice{
+    width: 400px;
+}
+.btn{
+    
+    background-color:rgb(45, 135, 243);
+    border-radius: 10px;
+    border: 0px;
+    height: 40px;
+    width:80px;
+    color: white;
+      ;
+    
+}
+#human{
+    display: flex;
+}
+
+#female{
+    padding-left: 20px;
+}
+#phone{
+    padding-left: 200px;
+    padding-bottom: 10px;
+}
+#div1{
+height: 41px;
+}
+#profile{
+text-align: center;
+color:darkorange
+}
+.profile1{
+text-align: center;
+}
+#but{
+    background-color:rgb(45, 135, 243);
+    border-radius: 10px;
+    border: 0px;
+    height: 40px;
+    width:80px;
+    color: white;  
+    margin-top: 10px;
+}

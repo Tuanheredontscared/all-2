@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header,.information{
+    width: 100vw
+    ;
+}
+.navbar{
+    width: 100%;
+    height: 70px;
+   
+    
+}
+.nav-list{
+    padding: 26px 0px;
+
+}
+.nav-list li{
+    display: inline-block;
+    list-style: none;
+    padding: 0px 20px;
+
+}
+.center {
+    text-align: center;
+    
+  }
+  .nav-list li a{
+      text-decoration: none;
+      font-size: 20px;
+      color: gray;
+  }
+  .active{
+      border-bottom: 1px solid gray ;
+  }
+  .left{
+      
+      float:left
+  }
+  .right{
+      
+      float: right
+  }
+  .information .container,.About-me .container{
+      width: 60%;
+      margin: 0 auto;
+  }
+  .left,
+  .right{
+      display: inline-block;
+  }
+  .left h4{
+background-color:lightskyblue;
+width: fit-content;
+padding: 14px 16px;
+border-radius: 25px 25px 25px 0;
+color: white;
+  }
+  .left h1{
+      font-size: 42px;
+      padding: 10px 0
+  }
+  .left h2{
+      padding-bottom: 10px;
+  }
+  .left ul li{
+      list-style: none;
+      padding: 3px 0;
+  }
+  .right{
+
+    height: 100%;
+  }
+  .right .Avatar img{
+border-radius: 50%;
+border: 10px solid gray;
+width: 300px;
+height: 300px;
+  }
+  .information,.About-me{
+      clear:both;
+      padding: 100px 0;
+  }
+  .About-me .container .left{
+      width: 40%;
+  }
+.About-me .container .right{
+    width: 60%;
+}
+.btn-doawload{
+    background-color: teal;
+    padding: 14px 32px;
+    border-radius: 30px;
+    color:white;
+    font-weight: bold;
+    border: none;
+    margin-top: 10px;
+}
+
+  
